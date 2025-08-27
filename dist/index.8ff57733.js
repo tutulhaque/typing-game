@@ -142,13 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"3U0i4":[function(require,module,exports) {
+})({"3vvh1":[function(require,module,exports) {
 "use strict";
+var global = arguments[3];
 var HMR_HOST = null;
-var HMR_PORT = 55910;
+var HMR_PORT = null;
 var HMR_SECURE = false;
-var HMR_ENV_HASH = "75217355ed20a7c9";
-module.bundle.HMR_BUNDLE_ID = "8f9db35f963c7b4c";
+var HMR_ENV_HASH = "d6ea1d42532a7575";
+module.bundle.HMR_BUNDLE_ID = "c93e9ce88ff57733";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
   HMRAsset,
@@ -530,7 +531,7 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"eG8sm":[function(require,module,exports) {
+},{}],"l5Oo5":[function(require,module,exports) {
 const RANDOM_QUOTE_API_URL = "https://quoteslate.vercel.app/api/quotes/random/";
 const quoteDisplayElement = document.getElementById("quoteDisplay");
 const quoteInputElement = document.getElementById("quoteInput");
@@ -608,6 +609,6 @@ function getTimerTime() {
 }
 renderNewQuote();
 
-},{}]},["3U0i4","eG8sm"], "eG8sm", "parcelRequire0296")
+},{}]},["3vvh1","l5Oo5"], "l5Oo5", "parcelRequire0296")
 
-//# sourceMappingURL=index.963c7b4c.js.map
+//# sourceMappingURL=index.8ff57733.js.map
